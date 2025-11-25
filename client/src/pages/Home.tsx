@@ -397,7 +397,7 @@ export default function Home() {
             </Card>
 
             {/* Facebook Embed 3 */}
-            <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
+            {/* <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
               <div className="aspect-video bg-muted relative overflow-hidden">
                 <iframe
                   className="w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -417,10 +417,10 @@ export default function Home() {
                   </a>
                 </Button>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
 
-          <div className="text-center">
+          {/* <div className="text-center">
             <Button size="lg" className="gap-2 group" asChild>
               <a href="https://www.facebook.com/share/1DTm7mLy71/" target="_blank" rel="noopener noreferrer">
                 <Facebook className="w-5 h-5 group-hover:scale-110 transition-transform" />
@@ -428,7 +428,7 @@ export default function Home() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -657,7 +657,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="text-sm text-muted-foreground">© 2024 Steve Mulango. All rights reserved.</span>
-                <span className="text-xs text-muted-foreground/70">Made by <a href="https://brianmunene.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">brianmunene.vercel.app</a></span>
+                <span className="text-xs text-muted-foreground/70">Made by <a href="https://brianmunene.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Brian</a></span>
               </div>
             </div>
             <div className="flex items-center gap-4">
