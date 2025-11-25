@@ -339,19 +339,19 @@ export default function Home() {
       </section>
 
       {/* Facebook Section */}
-      <section className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/5 to-transparent"></div>
+      {/* <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/5 to-transparent"></div> */}
         
-        <div className="container relative z-10 space-y-12">
-          <div className="text-center space-y-4 animate-fade-in">
+        {/* <div className="container relative z-10 space-y-12"> */}
+          {/* <div className="text-center space-y-4 animate-fade-in">
             <h2 className="text-5xl md:text-6xl font-bold">Follow on Facebook</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary via-purple-500 to-pink-500 mx-auto rounded-full"></div>
             <p className="text-lg text-muted-foreground">Connect and engage with our community</p>
-          </div>
+          </div> */}
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
             {/* Facebook Embed 1 */}
-            <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
+            {/* <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
               <div className="aspect-video bg-muted relative overflow-hidden">
                 <iframe
                   className="w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -371,10 +371,10 @@ export default function Home() {
                   </a>
                 </Button>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Facebook Embed 2 */}
-            <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
+            {/* <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
               <div className="aspect-video bg-muted relative overflow-hidden">
                 <iframe
                   className="w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -394,7 +394,7 @@ export default function Home() {
                   </a>
                 </Button>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Facebook Embed 3 */}
             {/* <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 hover:border-primary/50">
@@ -418,7 +418,7 @@ export default function Home() {
                 </Button>
               </CardContent>
             </Card> */}
-          </div>
+          {/* </div> */}
 
           {/* <div className="text-center">
             <Button size="lg" className="gap-2 group" asChild>
@@ -429,8 +429,8 @@ export default function Home() {
               </a>
             </Button>
           </div> */}
-        </div>
-      </section>
+        {/* </div> */}
+      {/* </section> */}
 
       {/* Spotify Section */}
       <section className="py-24 bg-card/50 backdrop-blur-sm">
