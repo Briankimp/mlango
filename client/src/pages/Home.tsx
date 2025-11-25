@@ -440,7 +440,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <div className="relative group">
                   <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl group-hover:blur-2xl transition-all"></div>
-                  <SiSpotify className="relative w-20 h-20 text-primary group-hover:scale-110 transition-transform" />
+                  <SiSpotify className="relative w-20 h-20  group-hover:scale-110 transition-transform" />
                 </div>
               </div>
               <h2 className="text-5xl md:text-6xl font-bold">Listen on Spotify</h2>
@@ -656,8 +656,8 @@ export default function Home() {
                 <img src={APP_LOGO} alt="Steve Mulango" className="relative w-10 h-10 rounded-full object-cover ring-2 ring-primary/20" />
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-sm text-muted-foreground">© 2024 Steve Mulango. All rights reserved.</span>
-                <span className="text-xs text-muted-foreground/70">Made by <a href="https://brianmunene.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Brian</a></span>
+                <span className="text-sm text-muted-foreground">© 2025 Steve Mulango. All rights reserved.</span>
+                <span className="text-xs text-muted-foreground/70">Made by <a href="https://brianmunene.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors text-blue-500">Brian</a></span>
               </div>
             </div>
             <div className="flex items-center gap-4">
