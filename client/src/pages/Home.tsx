@@ -439,8 +439,8 @@ export default function Home() {
             <div className="space-y-4 animate-fade-in">
               <div className="flex justify-center">
                 <div className="relative group">
-                  <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl group-hover:blur-2xl transition-all"></div>
-                  <SiSpotify className="relative w-20 h-20  group-hover:scale-110 transition-transform" />
+                  <div className="absolute inset-0 bg-[#1DB954]/20 rounded-full blur-xl group-hover:blur-2xl transition-all"></div>
+                  <SiSpotify className="relative w-20 h-20 text-[#1DB954] group-hover:scale-110 transition-transform" />
                 </div>
               </div>
               <h2 className="text-5xl md:text-6xl font-bold">Listen on Spotify</h2>
@@ -452,8 +452,8 @@ export default function Home() {
             <Card className="bg-gradient-to-br from-primary/10 to-purple-500/10 border-2 border-primary/20 hover:border-primary/40 transition-all hover:shadow-xl">
               <CardContent className="p-12">
                 <p className="text-muted-foreground mb-6 text-lg">Coming soon to Spotify and other streaming platforms</p>
-                <Button size="lg" variant="outline" className="gap-2 group hover:bg-primary hover:text-primary-foreground hover:border-primary">
-                  <SiSpotify className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                <Button size="lg" variant="outline" className="gap-2 group hover:bg-[#1DB954] hover:text-white hover:border-[#1DB954]">
+                  <SiSpotify className="w-5 h-5 text-[#1DB954] group-hover:text-white group-hover:scale-110 transition-all" />
                   Follow on Spotify
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
